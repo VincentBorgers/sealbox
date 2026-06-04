@@ -1,0 +1,11 @@
+node_modules
+
+# Never commit encrypted secrets or decrypted output
+*.sealbox
+
+# Logs and editor noise
+*.log
+.DS_Store
+Thumbs.db
+.vscode
+.idea

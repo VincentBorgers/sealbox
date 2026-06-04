@@ -1,0 +1,31 @@
+{
+  "name": "sealbox",
+  "version": "1.0.0",
+  "description": "Strong file and text encryption with an optional one time, self destructing mode.",
+  "type": "module",
+  "bin": {
+    "sealbox": "src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "encryption",
+    "aes",
+    "aes-256-gcm",
+    "scrypt",
+    "cli",
+    "self-destruct",
+    "one-time"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "author": "Vincent Borgers"
+}
