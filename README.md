@@ -148,7 +148,7 @@ If you need a stronger guarantee, keep the encrypted file on an encrypted volume
 
 - AES-256-GCM is authenticated, so tampering is detected and decryption fails with a clear message.
 - scrypt with a random salt protects against precomputed and parallel guessing attacks.
-- Pick a long passphrase. The strength of the whole thing comes from the passphrase, not the algorithm.
+- Pick a long passphrase. The algorithms are strong, so a short or common passphrase is the only real weakness left.
 - This project has not had an external audit. Read the code, it is small and in `src/`.
 
 ## File format
